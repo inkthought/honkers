@@ -1,0 +1,25 @@
+const messages = [
+  "*eats carrots from farm*",
+  "*grabs hat from door*",
+  "*calls for other geese*  HONK",
+  "honk",
+  "mess with the honk, you get the bonk",
+  "*inhales*  HONKKKK",
+  "*puts your rake in the lake*",
+  "*locks you out of the garden*",
+  "*steals your keys*",
+  "*steals your glasses*",
+  "*steals slippers*",
+  "peace was never an option",
+  "*steals knife*",
+  "*trips you*  HONK",
+  "*rips anti-goose sign down*",
+  "never gonna honk you up",
+  "never gonna honk you down",
+  "never gonna honk you up, never gonna honk you down",
+  "honkity bonkity your treats are now my property",
+  "helo giv me tret now or i pecc u",
+  "*hits you with a stick*  HONKKKKKKK",
+];
+
+export default messages;

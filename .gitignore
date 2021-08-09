@@ -1,0 +1,19 @@
+# Packages
+node_modules/
+
+# ENV
+src/bot/settings.ts
+.env
+
+# TSC
+dist/
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Prisma
+prisma/migrations/
+
+# Redis
+dump.rdb
