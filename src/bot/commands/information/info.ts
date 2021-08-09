@@ -74,6 +74,14 @@ abstract class Info extends Command {
           name: "Uptime",
           value: uptime,
           inline: true,
+        },
+        {
+          name: "Credits",
+          value: `
+            <:ammar:874371401216319508> ammar - Tester
+            <:roly:874374750661664769> Roly - Tester
+            `,
+          inline: true,
         }
       );
 
