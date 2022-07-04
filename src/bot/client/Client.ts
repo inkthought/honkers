@@ -30,7 +30,7 @@ class Bot extends Client {
     this.db = new PrismaClient().main;
     this.cache = settings
       ? new Redis({
-          password: settings.REDIS_PASSWORD,
+          port: settings.REDIS_PORT,
         }).once("ready", () => console.log("[Cache] Ready."))
       : new Redis().once("ready", () => console.log("[Cache] Ready."));
   }
